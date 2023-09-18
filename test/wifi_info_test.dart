@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:wifi_info/wifi_info.dart';
-import 'package:wifi_info/wifi_info_platform_interface.dart';
-import 'package:wifi_info/wifi_info_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
+import 'package:simple_wifi_info/wifi_info.dart';
+import 'package:simple_wifi_info/wifi_info_method_channel.dart';
+import 'package:simple_wifi_info/wifi_info_platform_interface.dart';
 
 class MockWifiInfoPlatform
     with MockPlatformInterfaceMixin

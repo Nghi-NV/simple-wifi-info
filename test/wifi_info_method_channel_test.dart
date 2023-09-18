@@ -1,7 +1,7 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:wifi_info/wifi_info_method_channel.dart';
-import 'package:wifi_info/wifi_info_platform_interface.dart';
+import 'package:simple_wifi_info/wifi_info_method_channel.dart';
+import 'package:simple_wifi_info/wifi_info_platform_interface.dart';
 
 void main() {
   MethodChannelWifiInfo platform = MethodChannelWifiInfo();

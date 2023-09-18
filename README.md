@@ -1,15 +1,16 @@
-# wifi_info
+# simple_wifi_info
 
 ## Description
 This package is used to get the ssid and bssid of the wifi that the device is connected to.
 
 ## Usage
 ```dart
-import 'package:wifi_info/wifi_info.dart';
+import 'package:simple_wifi_info/wifi_info.dart';
 
 Future<void> getWifiInfo() async {
     WifiInfoModel? wifiInfo;
     try {
+      final _wifiInfoPlugin = WifiInfo();
       wifiInfo = await _wifiInfoPlugin.getWifiInfo();
     } on PlatformException {
       wifiInfo = null;
@@ -23,7 +24,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  wifi_info: ^1.0.0
+  simple_wifi_info: ^1.0.0
 ```
 
 - For Android, add the following permissions to your AndroidManifest.xml file:

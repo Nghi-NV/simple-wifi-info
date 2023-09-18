@@ -1,4 +1,4 @@
-name: wifi_info
+name: simple_wifi_info
 description: A Wifi Info plugin for Flutter.
 version: 1.0.0
 homepage: https://github.com/Nghi-NV/wifi-info.git
