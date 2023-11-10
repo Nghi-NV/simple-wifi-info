@@ -3,7 +3,7 @@
 # Run `pod lib lint wifi_info.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'wifi_info'
+  s.name             = 'simple_wifi_info'
   s.version          = '1.0.0'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
